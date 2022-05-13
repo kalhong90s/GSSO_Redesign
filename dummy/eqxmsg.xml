@@ -1,0 +1,26 @@
+<dummy-request>
+    <dummy-message id="1">
+<EquinoxMessage from="GSSO.E11.0" via="GSSO.E11.0" session="66626099131" timeout="10" ret="0" diag="">
+        <EquinoxRawData orig="GSSO.ES05.SOAP.0" name="HTTP" invoke="2" type="request" method="POST" url="/" ctype="text/xml" to="GSSO.ES00" ret="0">
+                <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.sso.gsso/">
+                        <soapenv:Body xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+                                <ws:sendOneTimePW>
+                                        <msisdn>66626099131</msisdn>
+                                        <emailAddr>gsso@corp.ais900dev.org</emailAddr>
+                                        <otpChannel>all</otpChannel>
+                                        <service>MYAIS</service>
+                                        <accountType>all</accountType>
+                                        <addTimeoutMins>15</addTimeoutMins>
+                                        <waitDR>false</waitDR>
+                                        <otpDigit>4</otpDigit>
+                                </ws:sendOneTimePW>
+                        </soapenv:Body>
+                </soapenv:Envelope>
+        </EquinoxRawData>
+        <EquinoxInstance>
+                <value val="" />
+        </EquinoxInstance>
+</EquinoxMessage>
+</dummy-message>
+
+</dummy-request>
